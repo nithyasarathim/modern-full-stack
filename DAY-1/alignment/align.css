@@ -1,0 +1,21 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border : 2px solid black;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
+.boxes{
+    display: flex;
+    height:100vh;
+    gap: 10px;
+}
+
+.box:nth-child(4){
+    align-self: flex-end;
+    justify-self: flex-end;
+    order:1;
+}
