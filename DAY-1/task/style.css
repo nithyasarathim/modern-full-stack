@@ -171,3 +171,123 @@
     margin-left: auto;
   }
   
+  
+.footerlogo{
+  display: flex;
+  align-items: center;
+  justify-content: center;    
+}
+.contents{
+  position: relative;
+  top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.getsignup{
+  width:120px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.getsignup:hover{
+  transform: scaleX(1.2);
+  transition: 0.3s;
+}
+.mailbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.websites{
+  display: block;
+  margin-top: 90px;
+  margin-left: 20%;
+
+}
+
+.websites .titles{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 78%;
+}
+.webimages{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+.image img{
+  width:200px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 20px;
+}
+.image img:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.nav-items a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.nav-items{
+  display: grid;
+  grid-template-columns:repeat(auto-fill, minmax(100px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.nav-icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+Footer .nav-bar{
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+.nav-icons a{
+  display: grid;
+  grid-template-columns:repeat(auto-fill, minmax(30px, 1fr));
+  text-decoration: none;
+  color: black;
+}
+
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+
+}
+
+.footer div{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  align-items: center;
+  
+}
+.footer div a{
+  text-decoration: none;
+  color: gray;
+}
+
+@media screen and (max-width: 768px) {
+  .webimages {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+  .nav-bar .nav-items{
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  }
