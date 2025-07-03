@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Guess the Number</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body id="body">
+  <h1 class="title">Guess My Number</h1>
+
+  <div style="position: relative; text-align: center; margin-top: 20px;">
+    <hr style="width: 100%; border: 1px solid white;"/>
+    <div style="height: 75px; width: 75px; background-color: white; color: black; display: flex; align-items: center; justify-content: center; position: absolute; top:-37px; left: 50%; transform: translateX(-50%);">
+      <p style="font-size: 70px; font-weight: 900;" id="CorrectNumber">?</p>
+    </div>
+  </div>
+
+  <p class="head">Guess a number between 1 and 20</p>
+
+  <div style="text-align: center; margin-top: 20px;">
+    <input type="number" id="guessInput" placeholder="Number"/>
+    <button id="submitGuess">Check</button>
+  </div>
+
+  <p id="message" style="text-align: center; margin-top: 20px;">Start Guessing.....</p>
+
+  <p style="text-align: center;">Score: <span id="score">0</span></p>
+  <p style="text-align: center;">High Score: <span id="highScore">0</span></p>
+
+  <div style="text-align: center; margin-top: 10px;">
+    <button id="resetGame">Reset Game</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

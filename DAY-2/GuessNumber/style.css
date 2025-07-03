@@ -1,0 +1,35 @@
+    body{
+        background-color: black;
+        color: white;
+        font-family:'Courier New', Courier, monospace;
+    }
+
+    .title{
+        text-align: center;
+        font-size: 4em;
+        margin-top: 90px;
+    }
+
+    .head{
+        text-align: center;
+        font-size: 2em;
+        margin-top: 80px;
+    }
+
+    #guessInput{
+        height: 50px;
+        border: 2px solid white;
+        color: black;
+        font-size: 1.5em;
+        width: 150px;
+    }
+
+    #submitGuess{
+        height: 50px;
+        width: 150px;
+        font-size: 1.5em;
+        background-color: black;
+        color: white;
+        border: 2px solid white;
+        cursor: pointer;
+    }

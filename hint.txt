@@ -67,3 +67,13 @@ SCRIPT OF THE JAVA:
         }
 
 
+        querySelector :
+            selects the first element that matches the specified selector.
+
+        getElementById :
+            selects the element with the specified id.
+        
+        getElementsByClassName :
+            selects all elements with the specified class name.
+            
+
