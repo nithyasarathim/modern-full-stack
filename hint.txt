@@ -75,5 +75,15 @@ SCRIPT OF THE JAVA:
         
         getElementsByClassName :
             selects all elements with the specified class name.
-            
+        
+
+-------------------------------------------------------------------------------------------------------------
+  Project requirement gathering tips:
+    1. Understand the core idealogy.
+    2. Identify the target audience.
+    3. Ask the technologies used.
+    4. Ask the budget.
+    5. Ask the timeline.
+    6. Ask the features required.
+    7. Ask the design requirements.
 

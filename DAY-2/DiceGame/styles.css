@@ -29,6 +29,7 @@
 
 .player--active{
     background-color: #f48fb1;
+    border-radius: 20px;
 }
 
 .relative{
